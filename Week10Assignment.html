@@ -1,0 +1,96 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="container">
+    <div
+    class="bg-image"
+    style="
+      background-image: url('https://t3.ftcdn.net/jpg/01/33/08/82/360_F_133088269_QKwI60z9iRSB28RPYs4B4i3BuX7avn8B.jpg');
+      height: 400px;
+      background-size: cover;
+      background-position:top;
+    ">
+  <h1 class="text-center text-primary " style=" font-size:75px; margin-top:20px; padding-top: 90px;">PTA <br> Carnival <br> Sign up Sheet</h1>s
+  </div>
+   
+  <div class="container">
+      <h2>Welcome to the 35th Annual PTA Carnival! </h2>
+      <h4>Dates: May 19, 20, 21, 26, 27, 28 </h4>
+      <h4>Time: 6pm - 9pm</h4>
+      <h5>Volunteers needed for the following events:</h5>
+     <div class="row">
+         <div class="col-sm-5">
+             <ul>
+                 <li> Ring Toss</li>
+                 <li>Cake Walk</li>
+                 <li>Cotton Candy Stand</li>
+                 <li>2 legged Race</li>
+                 <li>Fishing</li>
+             </ul>
+         </div>
+         <div class="col-sm-5">
+          <ul>
+              <li> Balloon Darts</li>
+              <li>Dunk Tank</li>
+              <li>Face Painting</li>
+             <li>Basketball</li>
+              <li>Drink Stand</li>
+          </ul>
+      </div>
+      <div class="col-sm-2 mb-2">
+          <img src="https://i.etsystatic.com/9764701/r/il/bd456e/2405016611/il_400x400.2405016611_4lmq.jpg" alt="darts and popcorn you would find at a carnival" class="img-thumbnail">
+      </div>
+     </div>
+  </div>
+   
+  <div class="card">
+          <div class="card-body">
+              <div class="row">
+                  <div class="col-sm">
+                      <div class="form-group">
+                          <label for="new-start-date">Participation Date</label>
+                          <input type="date" class="form-control" id="new-start-date">
+                      </div>
+                  </div>
+                  <div class="col-sm">
+                      <div class="form-group">
+                          <label for="new-end-date">Name</label>
+                          <input type="text" class="form-control" id="new-name">
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-sm">
+                      <div class="form-group">
+                          <label for="new-task">Volunteer Activity</label>
+                          <input type="text" class="form-control" id="new-task" placeholder="task">
+                      </div>
+                  </div>
+              </div>
+              <div>
+                  <button id="add" class="btn btn-primary form-control">Create</button>
+              </div>
+          </div>
+      </div>    
+      <table id="list" class="table table-success table-striped">
+          <tr>
+              <th>Task</th>
+              <th>Date Created</th>
+              <th>Sign-Up Date</th>
+              <th>Name</th>
+              <th>Actions</th>
+          </tr>
+      </table>
+  
+<script src="Week10Assignment.js"></script>
+
+
+    <script src="nod_modules/jquery/dis/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
